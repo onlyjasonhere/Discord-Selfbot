@@ -43,7 +43,7 @@ bot.on('message', msg => {
   }
 
   if (command == "purge") {
-    var amount = parseInt(args[0]);
+    var amount = parseInt(args[1]);
     msg.channel.fetchMessages({limit: amount})
     .then(messages => {
       messages.map(msg => msg.delete().catch(console.error) );
