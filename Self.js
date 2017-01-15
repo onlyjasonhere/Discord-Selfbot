@@ -32,7 +32,8 @@ bot.on('message', msg => {
   let text = msg.content;
   let args = text.split(" ");
   let command = text.substring(prefix.length, args[0].length).toLowerCase();
-
+  if (!msg.content.startsWith(prefix)) return;
+  
   if (command == "ping") {
     msg.delete()
     startTime = Date.now();
