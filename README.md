@@ -1,2 +1,2 @@
-# discord-selfbot
-A Discord selfbot created in Discord.js v10
+# Discord.js v11 Selfbot
+More to come!
