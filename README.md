@@ -16,4 +16,5 @@ This selfbot is to help you along with your adventure on Discord. I hope you enj
 1. Open cmd.exe/Command Prompt
 2. Type **npm install discord.js**
 3. Once finished, close cmd.exe/Command Prompt
-
+4. Now, go into the Selfbot folder and double click on Startbot.bat
+5. Everything should be working, now enjoy your selfbot! If not [Need Support?](https://discord.gg/BFMkRwh)
